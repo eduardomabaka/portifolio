@@ -392,7 +392,7 @@ h2{
 
 /* media-querie para celular */
 
-@media only screen and (min-width: 480px) and (max-width: 600px){
+@media only screen and  (min-width: 300px)   and (max-width: 600px) {
     div#introducao{
         flex-direction: column;
     }
@@ -444,7 +444,7 @@ h2{
 
 /* para tablet */
 
-@media only screen and (min-width: 601px) and (max-width: 968px){
+@media only screen and (min-width: 601px) and (max-width: 1000px){
     div#introducao{
         flex-direction: column;
     }
