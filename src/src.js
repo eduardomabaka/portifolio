@@ -46,10 +46,13 @@ setTimeout(startTyping, 3000);
 /* agora vamos fazer o efeito pergunta clique qparece a resposta */
 function abrir1() {
     texto = document.getElementById("texto1")
+    texto1 = document.getElementById("texto1.1")
     if (texto.style.display == "block"){
         texto.style.display = "none"
+        texto1.style.display = "none"
     }else{
         texto.style.display = "block"
+        texto1.style.display = "block"
     }
 }
 function abrir2() {

@@ -392,7 +392,7 @@ h2{
 
 /* media-querie para celular */
 
-@media only screen and  (min-width: 300px)   and (max-width: 600px) {
+@media (max-width: 600px) {
     div#introducao{
         flex-direction: column;
     }
@@ -496,7 +496,7 @@ h2{
 
 /* tela tv */
 
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 1500px) and (max-width: 2000px){
     h1{
         font-size: 150px;
     }
