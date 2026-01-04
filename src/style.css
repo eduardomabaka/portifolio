@@ -247,7 +247,12 @@ button{
 }
 
 /* Equipe termina */
-
+mark{
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    
+}
 
 /* colaboradores */
 #co{
@@ -262,6 +267,13 @@ button{
     justify-content: center;
     align-items: center;
     gap:50px;
+}
+#cod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 img{
     width: 100px;
@@ -439,6 +451,10 @@ h2{
         flex-direction: column;
         align-items: center;
         gap: 5px;
+    }
+    #h2{
+        font-size: 15px;
+        align-items: center;
     }
 }
 
